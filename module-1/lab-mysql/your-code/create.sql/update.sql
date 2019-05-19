@@ -1,0 +1,13 @@
+
+mysql> UPDATE SALESPERSON SET STORE = 'Miami' where STAFF_ID = '00005'; ---UPPDATE MIAMI
+
+---UPDATES EMAIL
+
+mysql> UPDATE CUSTOMERS SET EMAIL = 'ppicasso@gmail.com' WHERE CUSTOMERS_ID ='10001'; 
+
+
+mysql> UPDATE CUSTOMERS SET EMAIL = 'lincoln@us.gov' WHERE CUSTOMERS_ID ='20001';
+
+
+mysql> UPDATE CUSTOMERS SET EMAIL = ' hello@napoleon.me' WHERE CUSTOMERS_ID ='30001';
+
