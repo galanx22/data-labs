@@ -5,16 +5,16 @@ tablero = [1,2,3,
            7,8,9]
 
 def tablero():
-    print(board[1], board[2], board[3])
-    print(board[4], board[5], board[6])
-    print(board[7], board[8], board[9])
+    print(pos[1], pos[2], pos[3])
+    print(pos[4], pos[5], pos[6])
+    print(pos[7], pos[8], pos[9])
 
 def ficha_del_jugador():
-    letter = ''
-    while not (letter =='X' or letter == '0'):
+    letra = ''
+    while not (letra =='X' or letra == '0'):
         print('¿Con que ficha quieres jugar X o O?')
-        letter = input().upper()
-    if letter == 'X':
+        letra = input().upper()
+    if letra == 'X':
         return['X','O']
     else:
         return['O','X']
