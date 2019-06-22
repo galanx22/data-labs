@@ -1,3 +1,6 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
 # Escoger las columnas que quieres borrar del df
 def elegir_columnas_borrar():
     respuesta = input('Introduce el nombre las columnas que quieres borrar separadas por una coma:')
